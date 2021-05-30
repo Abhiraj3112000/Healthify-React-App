@@ -13,13 +13,14 @@
    
 4) Run the following in command line after cloning the project to compile it-
 
-   npm install --save react-spinners
+   npm i 
+
+   <!-- npm install --save react-spinners
    
    npm install react-bootstrap bootstrap@4.6.0
 
    npm i firebase
 
-   npm i react-router-dom
+   npm i react-router-dom -->
 
 
-5)New line made in readme file
