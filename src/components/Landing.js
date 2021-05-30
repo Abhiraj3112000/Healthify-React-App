@@ -21,7 +21,7 @@ class Landing extends Component {
   state = { ...INITIAL_STATE }
 
   componentDidMount() {
-    setTimeout(() => this.setState({Didload: false}), 2000);
+    setTimeout(() => this.setState({Didload: false}), 4000);
   }
 
   componentWillMount() {
