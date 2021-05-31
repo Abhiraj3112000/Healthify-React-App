@@ -25,5 +25,4 @@ App hosted at: [healthify](https://healthify-code-mergers.netlify.app)
 
    npm i react-router-dom -->
 
-
-
+# footer code changes : [footer] (https://github.com/Code-Mergers/Healthify-React-App/commit/34d1c9239bc44e423e2e5a56e813ac067cfacda5)
