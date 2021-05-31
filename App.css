@@ -9,10 +9,10 @@
 
 body {
   animation-name: jamboani1;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
-  animation-delay: 2s;
+  animation-delay: 2.5s;
 }
 
 @keyframes jamboani1 {
@@ -33,25 +33,9 @@ body {
 }
 
 @keyframes popping {
-  0% {
-    transform: scale(1);
-    transition: transform 0.5s ease;
-  }
-  50% {
-    transform: scale(1.05);
-    transition: transform 0.5 ease;
-  }
-  100%
-  {
-    transform: scale(1);
-    transition: transform 0.5 ease;
-  }
-}
-
-/* @keyframes popping {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(20px); }
-} */
+}
 
 .Jumbotron{
   margin: auto;
@@ -73,8 +57,7 @@ body {
   height: auto;
 }
 
-.Jumbotron:hover
-{
+.Jumbotron:hover {
   transform: scale(1.05);
   box-shadow: 10px 10px 5px 0px rgb(158, 155, 155);
 }
