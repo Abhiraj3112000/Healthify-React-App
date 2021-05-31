@@ -1,7 +1,8 @@
 # Healthify-React-App
+App hosted at: [healthify](https://healthify-code-mergers.netlify.app)
 ![HealthifyLogo](./public/logoother.png)
 ## Things to remember
-1) Dark/Light Mode Switch + autodarkmode
+1) Dark/Light Mode Switch + autodarkmode & make the navbar sticky.
 2) Try to find out what kind of components have to be added according to the type of disease
 3) Machine Learning implementation-
    The model would filter the keywords out of the patient's entered information and would 
