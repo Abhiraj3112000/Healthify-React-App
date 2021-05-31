@@ -55,6 +55,7 @@ const cardDetails = [
         url: "#",
         button: "B6"
     }
+    
 ];
 
 export default cardDetails;
