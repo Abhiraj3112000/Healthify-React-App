@@ -1,4 +1,5 @@
 # Healthify-React-App
+App hosted at: [healthify](https://healthify-code-mergers.netlify.app)
 ![HealthifyLogo](./public/logoother.png)
 ## Things to remember
 1) Dark/Light Mode Switch + autodarkmode
