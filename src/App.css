@@ -270,16 +270,7 @@ body {
     font-size: 24px;
   }
 }
-
-
 /*footer*/
-
-* {
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  margin: 0;
-  padding: 0;
-}
 ul {
   list-style: none;
   padding-left: 0;
@@ -293,9 +284,8 @@ footer a {
   text-decoration: none;
   color: #eee;
 }
-footer a:hover {
+a:hover {
   text-decoration: underline;
-  color: white;
 }
 .ft-title {
   color: #fff;
@@ -304,20 +294,21 @@ footer a:hover {
   padding-bottom: 0.625rem;
 }
 
+.container {
+  flex: 1;
+}
+/* Footer main */
 .ft-main {
   padding: 1.25rem 1.875rem;
   display: flex;
   flex-wrap: wrap;
 }
-@media (max-width: 900px) {
+@media only screen and (min-width: 29.8125rem /* 477px */) {
   .ft-main {
     justify-content: space-evenly;
   }
-  .ft-main-item{
-    justify-content: space-evenly;
-  }
 }
-@media (max-width: 1200px) {
+@media only screen and (min-width: 77.5rem /* 1240px */) {
   .ft-main {
     justify-content: space-evenly;
   }
@@ -327,23 +318,25 @@ footer a:hover {
   min-width: 12.5rem;
 }
 
+/* Footer main  */
 form {
   display: flex;
   flex-wrap: wrap;
 }
-footer input[type="email"] {
+input[type="email"] {
   border: 0;
   padding: 0.625rem;
   margin-top: 0.3125rem;
 }
-footer input[type="submit"] {
+input[type="submit"] {
   background-color: #00d188;
   color: #fff;
   cursor: pointer;
   border: 0;
-  padding: 0.625rem 0.5rem;
+  padding: 0.625rem 0.9375rem;
   margin-top: 0.3125rem;
 }
+/* Footer social */
 .ft-social {
   padding: 0 1.875rem 1.25rem;
 }
@@ -357,12 +350,22 @@ footer input[type="submit"] {
   margin: 0.5rem;
   font-size: 1.25rem;
 }
+/* Footer legal */
 .ft-legal {
   padding: 0.9375rem 1.875rem;
   background-color: #333;
 }
 .ft-legal-list {
+  width: 100%;
   display: flex;
-   justify-content:space-around;
+  flex-wrap: wrap;
 }
-
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list  {
+    display: flex;
+    justify-content: space-between;
+}
