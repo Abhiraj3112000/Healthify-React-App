@@ -1,3 +1,11 @@
+body {
+  animation-name: jamboani1;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+}
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -15,6 +23,7 @@
     transform: rotate(360deg);
   }
 }
+
 .header{
   /* box-shadow: 3px 3px 5px 6px rgb(158, 155, 155); */
   box-shadow: 0px 10px 5px 0px rgb(158, 155, 155);
@@ -34,6 +43,18 @@
   box-shadow: 10px 10px 5px 0px rgb(158, 155, 155);
   width: 80%;
   height: auto;
+}
+
+@keyframes jamboani1 {
+  0%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 .Jumbotron:hover
