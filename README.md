@@ -1,4 +1,5 @@
 # Healthify-React-App
+![HealthifyLogo](./public/logobanner.png)
 ## Things to remember
 1) Dark/Light Mode Switch + autodarkmode
 2) Try to find out what kind of components have to be added according to the type of disease
